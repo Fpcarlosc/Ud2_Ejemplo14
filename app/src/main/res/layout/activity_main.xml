@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ejemplo del uso de estilos.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/EstiloTexto"
+        android:text="@string/uno"/>
+
+    <TextView
+        style="@style/EstiloTexto"
+        android:text="@string/dos"/>
+
+    <TextView
+        style="@style/EstiloTexto"
+        android:text="@string/tres"/>
+
+</LinearLayout>
